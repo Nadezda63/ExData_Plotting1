@@ -1,7 +1,7 @@
 ### Plot 1
 source("readdata.R")
 
-png("Plot1.png", width =400, height = 400)
+png("Plot1.png", width =480, height = 480)
 hist(as.numeric(as.character(data$Global_active_power)), 
      main="Global Active Power",
      xlab="Global Active Power (kilowatts)", col="red")

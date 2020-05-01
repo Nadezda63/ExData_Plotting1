@@ -1,7 +1,7 @@
 ### Plot 3
 source("readdata.R")
 
-png("Plot3.png", width =400, height = 400)
+png("Plot3.png", width =480, height = 480)
 
 plot(data$Timestamp, as.numeric(as.character(data$Sub_metering_1)),type='l', 
      ylab ="Energy sub metering", xlab="")
