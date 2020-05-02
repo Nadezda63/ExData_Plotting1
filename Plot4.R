@@ -1,7 +1,7 @@
 ### Plot 4
 source("readdata.R")
 
-png("Plot4.png", width =400, height = 400)
+png("Plot4.png", width =480, height = 480)
 
 par(mfcol=c(2,2))
 
@@ -19,3 +19,4 @@ plot(data$Timestamp, as.numeric(as.character(data$Voltage)),type='l',
 plot(data$Timestamp, as.numeric(as.character(data$Global_reactive_power)),type='l', 
      ylab="Global_reactive_power",xlab="datetime" )
 dev.off()
+
